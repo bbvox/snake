@@ -1,0 +1,16 @@
+{
+  "name": "snake",
+  "version": "0.0.1",
+  "description": "Snake game",
+  "main": "src/scripts.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "chai": "^4.1.2",
+    "sinon": "^5.0.10"
+  }
+}

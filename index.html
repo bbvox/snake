@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Snake game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="src/styles.css">
+  <script src="src/scripts.js"></script>
+
+</head>
+
+<body>
+  <main>
+    <h2> Snake Game </h2>
+    <div id="snakeArea">
+    </div>
+    <nav>
+      <button onClick="s.newGame(event)"> New Game </button>
+      <button onClick="s.startGame(event)"> Start </button>
+      <button onClick="s.stopGame(event)"> STOP </button>
+    </nav>
+  </main>
+  <script>
+    var s = new Snake("snakeArea");
+  </script>
+</body>
+
+</html>

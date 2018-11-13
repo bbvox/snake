@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+h2,
+form {
+  text-align: center; }
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#snakeArea {
+/*  height: 170px;*/
+  margin: 30px auto;
+  overflow: hidden;
+  padding: 5px;
+}
+
+#snakeArea .cell {
+  width: 15px;
+  height: 15px;
+  border: 1px solid green;
+  float: left;
+  margin-left: -1px;
+  margin-bottom: -1px;
+}
+
+nav {
+  margin: 30px;
+  text-align: center;
+}
